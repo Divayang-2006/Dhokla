@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+body{
+  font-family: 'Quicksand';
+  background-color: #0000;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
